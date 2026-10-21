@@ -1,0 +1,54 @@
+{
+    "nav":
+    {
+        "home": "Home",
+        "settings": "Settings",
+        "about": "About",
+        "help": "Help"
+    },
+    "home":
+    {
+        "pageTitle": "Assignment Seven",
+        "buttonText": "Click Me",
+        "playingText": "Listen closely...",
+        "replayText": "Close the Curtains",
+        "audioError": "The sound file could not be played."
+    },
+    "settings":
+    {
+        "pageTitle": "Settings",
+        "theme": "Theme",
+        "language": "Language",
+        "voice": "Voice",
+        "voiceDefault": "Browser default",
+        "testVoice": "Test Voice",
+        "noVoices": "No voices are available in this browser.",
+        "effect": "Tremolo Effect",
+        "intensity": "Intensity",
+        "rate": "Rate (Hz)",
+        "stereoPhase": "Stereo Phase",
+        "reset": "Reset to Defaults"
+    },
+    "about":
+    {
+        "pageTitle": "About",
+        "para1": "This application was built to provide amusement.",
+        "para2": "It plays a recorded phrase through a tremolo effect, then the curtains part to reveal the result.",
+        "builtWith": "Built with React, Daisy UI, and the Tuna audio effects library.",
+        "version": "Version",
+        "buildMode": "Build mode"
+    },
+    "help":
+    {
+        "pageTitle": "Help",
+        "step1": "Press the button under the curtains to play the sound.",
+        "step2": "Wait for the recording to finish. The curtains will open on their own.",
+        "step3": "Your computer will then announce that it is done.",
+        "step4": "Use the Settings page to change the theme, language, voice, and tremolo effect.",
+        "tip": "If you hear nothing, check that your device is not muted and that the page is allowed to play sound."
+    },
+    "speech":
+    {
+        "phrase": "It is done"
+    }
+}
