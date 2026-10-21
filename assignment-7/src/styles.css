@@ -149,7 +149,7 @@ a {
     position: relative;
     width: 100%;
     max-width: 44rem;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 1290 / 1009; /* matches assets/images/newspaper.jpg */
     overflow: hidden;
     border-radius: var(--rounded-box, 1rem);
     background: #0b0b0b;
