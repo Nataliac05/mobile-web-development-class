@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "deploy",
+    "ignore": ["firebase.json", "**/.*"],
+    "headers": [
+      {
+        "source": "**/*.@(js|css|jpg|mp3)",
+        "headers": [{ "key": "Cache-Control", "value": "max-age=3600" }]
+      },
+      {
+        "source": "data/**",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+      }
+    ]
+  }
+}
